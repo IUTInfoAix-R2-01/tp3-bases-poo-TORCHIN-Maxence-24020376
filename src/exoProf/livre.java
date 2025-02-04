@@ -27,4 +27,20 @@ public class livre {
 	public int getQuantite() {
 		return quantite;
 	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	
+	public void setQuantite(int quantite) {
+		this.quantite = quantite;
+	}
+	
+	public String toString() {
+        return "[nom = " + name + ", prix = " + price + ", quantite = " + quantite +"]";
+    }
 }
