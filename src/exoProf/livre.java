@@ -10,6 +10,11 @@ public class livre {
 		price = 2.50;
 		quantite = 0;
 	}
+	public livre (String name, double price,int quantite) {
+		this.name = name ;
+		this.price = price ;
+		this.quantite = quantite ;
+	}
 	
 	public String getName() {
 		return name;
